@@ -7,8 +7,8 @@ findCount = 0
 findId = "QString"
 findDir = "/Users/wangnz/Downloads"
 # resultFile = os.path.join(findDir,"result.txt")
-source_path = './20210531.html'
-target_path = './20210601.html'
+source_path = '/Users/wangnz/Downloads/20210531.html'
+target_path = '/Users/wangnz/Downloads/20210601.html'
 
 
 def findNotExistsLine(src_file,dst_file):
@@ -18,7 +18,7 @@ def findNotExistsLine(src_file,dst_file):
 	pattern = re.compile(r'.*(<A.*A>)')
 	for s_line in s_file:
 		m = pattern.match(s_line)
-		if m <> None:
+		if m != None:
 			href = m.group(1)
 			isExist = t_content.find(href)
 			if isExist == -1:
