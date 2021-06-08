@@ -7,8 +7,8 @@ findCount = 0
 findId = "QString"
 findDir = "/Users/wangnz/Downloads"
 # resultFile = os.path.join(findDir,"result.txt")
-source_path = '/Users/wangnz/Downloads/20210531.html'
-target_path = '/Users/wangnz/Downloads/20210601.html'
+source_path = '/Users/wangnz/Downloads/kinggooo20210516.html'
+target_path = '/Users/wangnz/Downloads/20210605.html'
 
 
 def findNotExistsLine(src_file,dst_file):
